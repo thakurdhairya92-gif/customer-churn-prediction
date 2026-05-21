@@ -384,7 +384,7 @@ hr { border-color: var(--border) !important; margin: 1.4rem 0; }
 # ─────────────────────────────────────────────────────────────────────────────
 @st.cache_data
 def load_data():
-    df = pd.read_csv("customer_churn_prediction_dataset.csv")
+    df = pd.read_csv("customer_churn.csv")
     return df
 
 @st.cache_resource
