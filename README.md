@@ -11,4 +11,3 @@ Customer churn prediction web app using Streamlit and Logistic Regression.
 
 ```bash
 streamlit run app.py
-```
